@@ -1,0 +1,42 @@
+# === Gradle / build ===
+.gradle/
+.kotlin/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# === Android Studio / IDE ===
+.idea/
+*.iml
+*.hprof
+
+# === Local configuration / secrets ===
+local.properties
+.env
+*.jks
+*.keystore
+debug.keystore
+google-services.json
+
+# === OS / Windows metadata ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Local reference materials and AI context (never published) ===
+/kittytune*/
+AGENTS.md
+PROJECT_MAP.md
+REFERENCE_MAP.md
+**/notes.md
+metadata.json
+assets/.aistudio/
+
+# === Temporary / development screenshots ===
+.tmp_*.png
+screenshot_home.png
+screenshots_feed1.png
